@@ -1,0 +1,90 @@
+.navbar-default, .navbar-nav, .navbar-brand, .accordionExample, .headingOne > li > a, .dropdown-menu {
+border: 0 none;
+color: #2d4207 !important;
+font-family: didot;
+margin: 0;
+}
+
+  body {
+    background-color: white;
+    font-family: arial;
+    margin: 0px
+  }
+
+  div{
+    width: 100vw;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: didot;
+  }
+
+  p{
+    font-family: arial;
+    padding: 20px;
+  }
+
+  h3{
+    font-family: arial;
+    padding: 20px;
+  }
+
+
+  .committee1
+  {display: ;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 130px;
+  }
+
+
+  .column1{
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+
+  .column {
+    padding: 16px 32px;
+    opacity: 1;
+    transition: 0.3s;
+    float: left;
+    width: 33.33%;
+    padding-left: 2cm;
+  }
+
+
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+    @media screen and (max-width:600px) {
+      .column {
+        width: 100%;
+      }
+
+      .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 38px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+
+      .fa:hover {
+        opacity: 0.7;
+      }
+
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+
+      .fa-instagram {
+        background: #FF3399;
+        color: white;
+      }
