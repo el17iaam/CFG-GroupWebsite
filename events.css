@@ -1,0 +1,122 @@
+
+.banner {
+  height: 535px;
+  padding-top: 1cm;
+  border-radius: 25px;
+  padding-right: 1cm;
+}
+
+h1 {
+font-size: 65px;
+font-family: didot;
+font-weight: bolder;
+}
+
+p {
+font-size: 20px;
+padding-bottom: 1cm;
+}
+
+#title {
+font-size: 35px;
+font-family: didot;
+font-weight: bold;
+}
+
+h2 {
+font-size: 50px;
+color: navy;
+font-family: didot;
+font-weight: inherit;
+text-align: center;
+text-decoration-style: dotted;
+}
+
+
+.bold {
+font-weight: bold;
+margin-bottom: -30px;
+}
+
+body
+{
+  padding-left: 20px;
+  background-image: url("../BopsocPhotos/###.png");
+
+}
+.column {
+  padding: 16px 32px;
+  text-align: center;
+  opacity: 0.6;
+  transition: 0.3s;
+  float: left;
+  width: 30%;
+  padding-bottom: 2cm;
+}
+
+.nextevents {
+  padding: 20px 50px;
+  text-align: center;
+  opacity: 0.9;
+  float: left;
+  width: 32%;
+  padding-bottom: 2cm;
+}
+
+
+.column:hover {
+  background-color: lightblue;
+  color: white;
+  opacity: 1;
+}
+
+.nextevents:hover {
+  background-color: pink;
+  color: white;
+  opacity: 1;
+}
+
+.questionnaire
+{
+  float: left;
+  padding-left: 0.5cm;
+  font-size: 16px;
+  color: black;
+  border-radius: 35px;
+  background-color: lightgreen;
+  padding-top: 15px;
+  width: 29%;
+  display:inline-block;
+  grid-template-columns: 210px 210px 210px;
+  grid-template-rows: 400px 400px;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 38px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.footer {
+left: 0;
+float: left;
+padding-top: 2cm;
+bottom: 0;
+width: 100%;
+color: black;
+text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #FF3399;
+  color: white;
